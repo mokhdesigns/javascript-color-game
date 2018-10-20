@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/colorgame.css">
+	<title>Color Game</title>
+
+
+
+</head>
+
+<body>
+
+<div class="head-part">
+    <h1> The Great <br>
+    <span id="colorDisplay">rgb(0,255,255)</span>
+     <br>
+    Gussing Game</h1>
+
+</div>
+    <div class="scoreData">
+        <button id="reset"> New Colors</button>
+        <span id="result"></span>
+        <button id="easy">Easy</button>
+        <button id="hard" class="active">Hard</button>
+    </div>
+
+
+
+<div id="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/NF%20-%20Let%20You%20Down.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+
+
+<canvas id="canvas"></canvas>
+	<script src="js/game.js"></script>
+	<script>
+	</script>
+
+</body>
+
+</html>
